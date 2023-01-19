@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(165, 187, 187);
+    font-family: 'Times New Roman', Times, serif;
+}
+#form { 
+    width: 300px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: azure;
+    border-radius: 4px;
+    font-size: 12px;
+}
+#form h1 {
+    color: blue;
+    text-align: center;
+    font-size: 40px;
+}
+#form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 4px;
+}
+.input-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.input-control input {
+    border: 2px solid ghostwhite;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    
+}
+.input-control input:focus {
+    outline: 0;
+}
+.input-control.success input {
+    border: 3px solid rgb(44, 219, 44);
+}
+.input-control.errors input {
+    border: 2px solid red;
+}
+.input-control .error {
+    color: red;
+    font-size: 15px;
+    visibility: hidden;
+    
+}
+.input-control label {
+    font-size: 18px;
+    color: blue;
+}
+#form button:hover {
+    background-color: rgb(5, 6, 95);
+    cursor: pointer;
+}
+#form button:active {
+    background-color: rgb(48, 50, 180);
+}
